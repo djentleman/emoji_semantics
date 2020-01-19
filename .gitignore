@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# original datasets
+data/twitter/
+data/freecodecamp/
+# preprocessed datasets
+data/preprocessed/
