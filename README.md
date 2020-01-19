@@ -1,4 +1,4 @@
-# emoji_semantics
+# Emoji Semantics
 embedding model aimed at identifying semantic similarities in emoji
 
 data sources:
