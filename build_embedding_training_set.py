@@ -44,6 +44,8 @@ for k, row in enumerate(corpus):
     words = str(row).split(' ')
     words = [w.lower() for w in words if w != '']
     words = [w for w in words if digits.match(w) is None]
+    words = [w for w in words if 'www' not in w]
+    words = [w for w in words if 'http' not in w]
     words = split_out_emojis(words)
     # split out any continous emoji strings
     for i, word in enumerate(words):
